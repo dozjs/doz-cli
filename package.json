@@ -1,0 +1,33 @@
+{
+  "name": "doz-cli",
+  "version": "1.0.0",
+  "description": "CLI for Doz",
+  "main": "index.js",
+  "bin": {
+    "doz": "./src/cli.js"
+  },
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dozjs/doz-cli.git"
+  },
+  "keywords": [
+    "doz",
+    "cli"
+  ],
+  "author": "Fabio Ricali",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dozjs/doz-cli/issues"
+  },
+  "homepage": "https://github.com/dozjs/doz-cli#readme",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "clear": "^0.1.0",
+    "commander": "^2.16.0",
+    "download-git-repo": "^1.0.2",
+    "figlet": "^1.2.0"
+  }
+}
