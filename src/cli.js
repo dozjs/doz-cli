@@ -2,21 +2,20 @@
 const program = require('commander');
 const lib = require('./lib');
 const {version} = require('../package');
+const figlet = require('figlet');
+const chalk = require('chalk');
+
+console.log(
+    chalk.magentaBright(
+        figlet.textSync('Doz cli')
+    )
+);
 
 program
     .version(version)
-    .option('-f, --file <fileName>', 'file to process')
-    .option('-d, --dest [destination]', 'optional file destination')
-    .option('-b, --saveCopy', 'optional save a copy', Boolean, true)
-    .option('-p, --busterParam [param]', 'optional buster param, default is _sb')
-    .option('-v, --busterValue [value]', 'optional buster value, default is the timestamp')
+    .command('component <name>', 'create component')
+    //.command('app <name>', 'create app')
     .parse(process.argv)
 ;
 
-lib({
-    file: program.file,
-    dest: program.dest,
-    saveCopy: program.saveCopy,
-    busterParam: program.busterParam,
-    busterValue: program.busterValue
-}).then((f) => console.log('processed:', f)).catch(err => console.err(err));
+//lib(program).then((f) => console.log('processed:', f)).catch(err => console.err(err));

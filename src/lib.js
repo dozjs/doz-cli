@@ -4,13 +4,8 @@ const downloadRepo = require('util').promisify(require('download-git-repo'));
 
 class DozCLI {
     constructor(opts) {
-        console.log(
-            chalk.magentaBright(
-                figlet.textSync('Doz cli')
-            )
-        );
-        console.log(process.cwd());
-        this.run();
+        console.log(opts);
+        //this.run();
         return Promise.resolve('test')
     }
 

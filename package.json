@@ -7,7 +7,8 @@
     "doz": "./src/cli.js"
   },
   "scripts": {
-    "test": "mocha test"
+    "test": "mocha test",
+    "install-global": "npm install -g"
   },
   "repository": {
     "type": "git",
@@ -29,5 +30,8 @@
     "commander": "^2.16.0",
     "download-git-repo": "^1.0.2",
     "figlet": "^1.2.0"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0"
   }
 }
