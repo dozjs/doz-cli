@@ -1,6 +1,6 @@
 {
   "name": "doz-cli",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "CLI for Doz",
   "main": "index.js",
   "bin": {
@@ -29,9 +29,11 @@
     "clear": "^0.1.0",
     "commander": "^2.16.0",
     "download-git-repo": "^1.0.2",
-    "figlet": "^1.2.0"
+    "figlet": "^1.2.0",
+    "replace-in-file": "^3.4.0"
   },
   "devDependencies": {
+    "fs-extra": "^7.0.0",
     "mocha": "^5.2.0"
   }
 }

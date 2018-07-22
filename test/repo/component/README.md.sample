@@ -1,0 +1,52 @@
+# [your-component-tag]
+[your-component-tag-description]
+
+## Install
+```
+npm install [your-component-tag]
+```
+
+Live <a href="https://[your-github-space].github.io/[your-repository]/example/index.html">here</a>
+
+### Example
+```javascript
+
+```
+
+## Usage
+
+Globally
+```javascript
+import Doz from 'doz'
+
+```
+
+Locally
+```javascript
+import Doz from 'doz'
+
+```
+
+## Props
+| Name | Default | Description |
+| ---- | ------- | ----------- |
+
+## Events
+
+| Name | Args | Description |
+| ---- | ------- | ----------- |
+
+
+#### CDN unpkg
+```html
+<script src="https://unpkg.com/[your-npm-space]/dist/bundle.min.js"></script>
+```
+
+## Changelog
+You can view the changelog <a target="_blank" href="https://github.com/[your-github-space]/[your-repository]/blob/master/CHANGELOG.md">here</a>
+
+## License
+[your-component-tag] is open-sourced software licensed under the <a target="_blank" href="http://opensource.org/licenses/MIT">MIT license</a>
+
+## Author
+<a target="_blank" href="[your-web-site]">[your-name]</a>
