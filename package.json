@@ -7,6 +7,10 @@
     "doz": "./src/cli.js"
   },
   "scripts": {
+    "version:major": "npm version major",
+    "version:minor": "npm version minor",
+    "version:patch": "npm version patch",
+    "postversion": "npm publish && git push && git push --tags",
     "test": "mocha test",
     "install-global": "npm install -g"
   },
