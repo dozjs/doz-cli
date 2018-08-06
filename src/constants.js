@@ -10,7 +10,6 @@ module.exports = {
         componentTag: [
             'index.js',
             'dist/*',
-            'example/index.html',
             'README.md.sample',
             'package.json',
         ],
