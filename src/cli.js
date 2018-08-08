@@ -13,6 +13,6 @@ console.log(
 program
     .version(version)
     .command('component <name>', 'create component')
-    //.command('app <name>', 'create app')
+    .command('app <name>', 'create app')
     .parse(process.argv)
 ;

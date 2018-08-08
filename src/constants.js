@@ -3,6 +3,7 @@ module.exports = {
         IS_CUSTOM_TAG: /^\w+-[\w-]+$/,
     },
     REPO: {
+        APP: 'dozjs/doz-app-starter',
         COMPONENT: 'dozjs/doz-component-starter'
     },
     TESTING: '__testing__',

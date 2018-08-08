@@ -27,9 +27,7 @@ After installing write your component inside `lib/` folder
 
 ## Todo
  - [x] Component project
- - [ ] App project standalone
- - [ ] App project with Koa
- - [ ] App project with Express
+ - [x] App project with Koa
 
 ## Changelog
 You can view the changelog <a target="_blank" href="https://github.com/dozjs/doz-cli/blob/master/CHANGELOG.md">here</a>
