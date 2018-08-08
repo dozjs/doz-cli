@@ -51,7 +51,7 @@ const fs = require('fs-extra');
             await exec(`npm install`);
         }
 
-        console.log(chalk.greenBright('Component created!'));
+        console.log(chalk.greenBright('App created!'));
     } catch (e) {
         console.error(e.message);
     }

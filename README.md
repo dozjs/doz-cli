@@ -6,6 +6,11 @@ Command line interface for Doz
 $ npm install -g doz-cli
 ```
 
+### Create an app
+```
+$ doz app your-app-name
+```
+
 ### Create a component
 ```
 $ doz component your-component-tag
