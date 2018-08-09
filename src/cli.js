@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+
 const program = require('commander');
 const {version} = require('../package');
 const figlet = require('figlet');
