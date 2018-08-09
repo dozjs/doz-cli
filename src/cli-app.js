@@ -24,8 +24,12 @@ const fs = require('fs-extra');
         const cwd = process.cwd();
         const projectPath = `${cwd}/${componentName}`;
 
-        if (!componentName || componentName.trim() === '') {
+        if (!componentName) {
             await Promise.reject(new Error('Project name is required'));
+        }
+
+        if (componentName.trim() === '') {
+            await Promise.reject(new Error('Project name cannot be empty'));
         }
 
         // ==== STEP 1 ====
