@@ -24,7 +24,7 @@ const {dashToCamelCase} = require('./helper');
 
         const componentName = program.args[0];
         const cwd = process.cwd();
-        const projectPath = `${cwd}\\${componentName}`;
+        const projectPath = `${cwd}/${componentName}`;
 
         if (!REGEX.IS_CUSTOM_TAG.test(componentName)) {
             await Promise.reject(new Error('Project name must contain a dash (-) like my-component'));
