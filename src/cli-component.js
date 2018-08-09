@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+
 const program = require('commander');
 const util = require('util');
 const downloadRepo = util.promisify(require('download-git-repo'));
