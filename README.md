@@ -11,24 +11,14 @@ $ npm install -g doz-cli
 $ doz app your-app-name
 ```
 
+After installing start to editing `client/app.js`
+
 ### Create a component
 ```
 $ doz component your-component-tag
 ```
 
-After installing write your component inside `lib/` folder
-
-#### Script
-- Development:
-    - run script `watch`
-- Production:
-    - run script `build:production`
-- Testing:
-    - run script `test`
-- Publish on NPM, you can run scripts below (automatically build for production)
-    - `release:major` (publish a major)
-    - `release:minor` (publish a minor)
-    - `release:patch` (publish a patch)
+After installing write your component inside `src/` folder
 
 ## Todo
  - [x] Component project
