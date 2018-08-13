@@ -1,6 +1,6 @@
 {
   "name": "doz-cli",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "CLI for Doz",
   "main": "index.js",
   "bin": {
