@@ -11,14 +11,28 @@ $ npm install -g doz-cli
 $ doz app your-app-name
 ```
 
-After installing start to editing `client/app.js`
+Start to developing
+
+```
+$ cd your-app-name
+$ npm run-script start
+```
+
+Editing `client/app.js`
 
 ### Create a component
 ```
-$ doz component your-component-tag
+$ doz component your-component-name
 ```
 
-After installing write your component inside `src/` folder
+Start to developing
+
+```
+$ cd your-component-name
+$ npm run-script start
+```
+
+Write your component inside `src/` folder
 
 ## Todo
  - [x] Component project
