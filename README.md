@@ -15,7 +15,7 @@ Start to developing
 
 ```
 $ cd your-app-name
-$ npm run-script start
+$ npm start
 ```
 
 Editing `client/app.js`
@@ -29,14 +29,30 @@ Start to developing
 
 ```
 $ cd your-component-name
-$ npm run-script start
+$ npm start
 ```
 
 Write your component inside `src/` folder
 
+### Create an Electron app
+```
+$ doz electron your-app-name
+```
+
+Start to developing
+
+```
+$ cd your-app-name
+$ npm start
+```
+
+Editing `client/app.js`
+
 ## Todo
  - [x] Component project
  - [x] App project with Koa
+ - [x] Electron app 
+ - [ ] Plugin 
 
 ## Changelog
 You can view the changelog <a target="_blank" href="https://github.com/dozjs/doz-cli/blob/master/CHANGELOG.md">here</a>

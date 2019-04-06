@@ -4,6 +4,7 @@ module.exports = {
     },
     REPO: {
         APP: 'dozjs/doz-app-starter',
+        ELECTRON: 'dozjs/doz-electron-starter',
         COMPONENT: 'dozjs/doz-component-starter'
     },
     TESTING: '__testing__',

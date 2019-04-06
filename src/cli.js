@@ -15,5 +15,6 @@ program
     .version(version)
     .command('component <name>', 'create component')
     .command('app <name>', 'create app')
+    .command('electron <name>', 'create Electron app')
     .parse(process.argv)
 ;
