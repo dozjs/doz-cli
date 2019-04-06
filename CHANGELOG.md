@@ -4,8 +4,9 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
-[unreleased]
+[1.1.0] - 2019-04-06
 - **Added** support to Electron app
+- **Added** support to plugin
 
 [1.0.2] - 2018-08-13
 - **Updated** readme info

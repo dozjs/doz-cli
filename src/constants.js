@@ -5,7 +5,8 @@ module.exports = {
     REPO: {
         APP: 'dozjs/doz-app-starter',
         ELECTRON: 'dozjs/doz-electron-starter',
-        COMPONENT: 'dozjs/doz-component-starter'
+        COMPONENT: 'dozjs/doz-component-starter',
+        PLUGIN: 'dozjs/doz-plugin-starter'
     },
     TESTING: '__testing__',
     REPLACE_FILES: {
@@ -15,13 +16,19 @@ module.exports = {
             'README.md.sample',
             'package.json',
         ],
-        componentCamelTag: 'dist/*'
+        componentCamelTag: 'dist/*',
+        pluginTag: [
+            'package.json'
+        ],
+        pluginCamelTag: 'dist/*'
     },
     TAG: {
         component: [
             /\[your-component-tag]/g,
             /your-component-tag/g
         ],
-        componentCamel: /YourComponentTag/g
+        componentCamel: /YourComponentTag/g,
+        plugin: /"YOUR-PLUGIN"/g,
+        pluginCamel: /YourPlugin/g
     }
 };

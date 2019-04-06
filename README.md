@@ -1,5 +1,11 @@
 # doz-cli
-Command line interface for Doz
+Command line interface for Doz.
+With this tool you can create:
+
+- Doz app
+- Doz component
+- Doz Electron app
+- Doz plugin
 
 ## Install
 ```
@@ -48,11 +54,19 @@ $ npm start
 
 Editing `client/app.js`
 
-## Todo
- - [x] Component project
- - [x] App project with Koa
- - [x] Electron app 
- - [ ] Plugin 
+### Create a plugin
+```
+$ doz plugin your-plugin-name
+```
+
+Start to developing
+
+```
+$ cd your-plugin-name
+$ npm start
+```
+
+Write your plugin inside `src/` folder
 
 ## Changelog
 You can view the changelog <a target="_blank" href="https://github.com/dozjs/doz-cli/blob/master/CHANGELOG.md">here</a>

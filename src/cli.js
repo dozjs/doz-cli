@@ -16,5 +16,6 @@ program
     .command('component <name>', 'create component')
     .command('app <name>', 'create app')
     .command('electron <name>', 'create Electron app')
+    .command('plugin <name>', 'create plugin')
     .parse(process.argv)
 ;
