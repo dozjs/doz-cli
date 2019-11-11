@@ -7,14 +7,9 @@ With this tool you can create:
 - Doz Electron app
 - Doz plugin
 
-## Install
-```
-$ npm install -g doz-cli
-```
-
 ### Create an app
 ```
-$ doz app your-app-name
+$ npx doz-cli app your-app-name
 ```
 
 Start to developing
@@ -28,7 +23,7 @@ Editing `client/app.js`
 
 ### Create a component
 ```
-$ doz component your-component-name
+$ npx doz-cli component your-component-name
 ```
 
 Start to developing
@@ -42,7 +37,7 @@ Write your component inside `src/` folder
 
 ### Create an Electron app
 ```
-$ doz electron your-app-name
+$ npx doz-cli electron your-app-name
 ```
 
 Start to developing
@@ -56,7 +51,7 @@ Editing `client/app.js`
 
 ### Create a plugin
 ```
-$ doz plugin your-plugin-name
+$ npx doz-cli plugin your-plugin-name
 ```
 
 Start to developing
