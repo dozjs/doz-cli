@@ -5,7 +5,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
 [1.1.1] - 2019-11-11
-- **Changed** installation method, using npx instead npm, this solve issue on Mac.
+- **Changed** installation method, using npx instead npm, this solves issue on Mac.
 
 [1.1.0] - 2019-04-06
 - **Added** support to Electron app
