@@ -34,7 +34,7 @@
     "commander": "^2.16.0",
     "download-git-repo": "^1.0.2",
     "figlet": "^1.2.0",
-    "fs-extra": "^7.0.0",
+    "fs-extra": "^8.0.0",
     "replace-in-file": "^3.4.0"
   },
   "devDependencies": {
